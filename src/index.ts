@@ -1,4 +1,4 @@
-import { getTranslationText } from "lingva-scraper";
+import { getTranslationText } from "./lingva-scraper/text.js";
 
 export default {
 	async fetch(
