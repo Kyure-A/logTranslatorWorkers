@@ -1,0 +1,8 @@
+* logTranslatorWorkers
+This is the backend of [[https://github.com/Kyure-A/logTranslator][logTranslator]], but actually this is to make translate api.
+
+** How to use
+Please deploy it to Cloudflare Workers. Then request at the following url
+#+begin_src 
+https://example.com?text=you want to translate me&source=en&target=ja
+#+end_src
